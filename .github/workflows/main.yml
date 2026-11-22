@@ -14,4 +14,9 @@ jobs:
         run: |
           echo "Você criou o seu primeiro workflow !!!"
           echo "Parabéns !!!"
+      - name: "Script Python"
+        run: |
+          var = "Script executado"
+          print(var)
+        shell: python
   
